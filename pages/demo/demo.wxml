@@ -1,0 +1,8 @@
+<!-- 登录授权 -->
+ <view wx:if='{{isShow}}'> <view wx:if='{{canIuse}}'>
+ <button open-type="getUserInfo" bindgetuserinfo='getUserInfo'>获取头像昵称 </button>
+  </view>
+   <view wx:else>请升级微信版本</view>
+    </view> <!-- 内容显示--头像 --> <view class='userinfo' wx:else>
+     <view class="avatarUrl"> <image src='{{userInfo.avatarUrl}}'></image></view> <text class='nickName'>
+     {{userInfo.nickName}}</text> </view>

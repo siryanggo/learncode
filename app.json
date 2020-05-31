@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/demo/demo",
+ 
+    "pages/logs/logs"
+   
+
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+   "backgroundColor": "#f0f",
+   "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#444",
+    "selectedColor": "skyblue",
+    "backgroundColor": "#e0e0e0",
+    "borderStyle": "white",
+    "list": [
+      {
+      "pagePath": "pages/demo/demo",
+      "text": "text"
+    },
+      {
+      "pagePath": "pages/demo/demo",
+      "text": "yang"
+    }
+  ]
+  }
+  
+}
